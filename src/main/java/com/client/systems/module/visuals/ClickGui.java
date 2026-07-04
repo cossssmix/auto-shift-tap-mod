@@ -19,7 +19,7 @@ public final class ClickGui extends AbstractModule {
 			Category.Visuals
 		);
 
-        setKey(GLFW.GLFW_KEY_J);
+        setKey(GLFW.GLFW_KEY_UNKNOWN);
 
 		this.clickGuiScreen = new ClickGuiScreen("click gui", moduleRepository);
     }
