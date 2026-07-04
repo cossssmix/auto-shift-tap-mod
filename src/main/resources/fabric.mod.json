@@ -7,7 +7,6 @@
 	"authors": ["cosssmix"],
 	"contact": {},
 	"license": "CC0-1.0",
-	"icon": "assets/client/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": ["com.client.Client"]
