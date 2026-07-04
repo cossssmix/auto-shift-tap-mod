@@ -1,0 +1,28 @@
+{
+	"required": true,
+	"package": "com.client.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"client.MinecraftClientMixin",
+		"client.KeyboardMixin",
+		"client.KeyboardInputMixin",
+		"client.ClientPlayerEntityMixin",
+		"client.ClientConnectionMixin",
+		"client.ClientPlayerInteractionManagerMixin",
+		"entity.EntityMixin",
+		"entity.PlayerEntityMixin",
+		"entity.LivingEntityMixin",
+		"render.TitleScreenMixin",
+		"render.WorldRendererMixin",
+		"render.LivingEntityRendererMixin",
+		"render.InGameHudMixin",
+		"accessor.EntityAccessor",
+		"accessor.ClientPlayerEntityAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
