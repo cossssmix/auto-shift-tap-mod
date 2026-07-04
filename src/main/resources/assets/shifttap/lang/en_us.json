@@ -1,4 +1,7 @@
 {
+  "category.shifttap": "Shift Tap",
   "category.shifttap.main": "Shift Tap",
+  "shifttap.category": "Shift Tap",
+  "shifttap": "Shift Tap",
   "key.shifttap.clickgui": "Shift Tap Menu"
 }
