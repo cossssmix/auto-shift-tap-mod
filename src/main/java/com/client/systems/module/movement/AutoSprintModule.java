@@ -25,7 +25,7 @@ public final class AutoSprintModule extends AbstractModule {
 
     public AutoSprintModule() {
         super("autosprint", "Автоматически зажимает клавишу спринта", Category.Movement);
-        setKey(GLFW.GLFW_KEY_G);
+        setKey(GLFW.GLFW_KEY_UNKNOWN);
         loadConfig();
     }
 

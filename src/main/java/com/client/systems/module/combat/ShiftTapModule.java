@@ -34,7 +34,7 @@ public final class ShiftTapModule extends AbstractModule {
 
     public ShiftTapModule() {
         super("shifttap", "Автоматически зажимает шифт при ударе", Category.Combat);
-        setKey(GLFW.GLFW_KEY_V);
+        setKey(GLFW.GLFW_KEY_UNKNOWN);
         loadConfig();
     }
 
